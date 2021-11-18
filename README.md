@@ -4,7 +4,7 @@
 You are leaving your house. Just as you lock the door, you remember, you forgot your keys inside. Lucky for you, your neighbar has the key for your backdoor, too. When you arrive at his house, you find a note on his door, saying that he isn't home and won't return until he finds his dog and has found some christmas decoration. You decide to help him. 
 
 ### Development platform: 
-Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit
+OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit
 
 ## Software/Hardware Requirements: 
 Oculus hardware requirements https://support.oculus.com/248749509016567/
