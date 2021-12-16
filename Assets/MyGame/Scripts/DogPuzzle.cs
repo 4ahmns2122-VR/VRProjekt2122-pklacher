@@ -14,8 +14,10 @@ public class DogPuzzle : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        Debug.Log("Trigger Handy");
+        if (other.gameObject.name == "Handy_Trigger")
         {
+            
             handy.SetActive(true);
         }
     }
