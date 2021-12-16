@@ -460,7 +460,6 @@ GameObject:
   - component: {fileID: 223974232}
   - component: {fileID: 223974231}
   - component: {fileID: 223974230}
-  - component: {fileID: 223974233}
   m_Layer: 0
   m_Name: XR Rig
   m_TagString: Untagged
@@ -582,19 +581,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Timeout: 10
   m_XRRig: {fileID: 0}
---- !u!114 &223974233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223974226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cf7d826386bb0646b4618ea6797db47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handy: {fileID: 1527459652}
 --- !u!1 &259715463
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,6 +885,7 @@ GameObject:
   - component: {fileID: 695473861}
   - component: {fileID: 695473860}
   - component: {fileID: 695473864}
+  - component: {fileID: 695473865}
   m_Layer: 0
   m_Name: Handy_Trigger
   m_TagString: HandyTrigger
@@ -998,6 +985,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &695473865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695473859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cf7d826386bb0646b4618ea6797db47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handy: {fileID: 1527459652}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2103,7 +2103,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1432903782}
-  - component: {fileID: 1432903781}
   m_Layer: 0
   m_Name: DogPuzzle_Manager
   m_TagString: Untagged
@@ -2111,19 +2110,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1432903781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432903780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cf7d826386bb0646b4618ea6797db47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handy: {fileID: 1527459652}
 --- !u!4 &1432903782
 Transform:
   m_ObjectHideFlags: 0
