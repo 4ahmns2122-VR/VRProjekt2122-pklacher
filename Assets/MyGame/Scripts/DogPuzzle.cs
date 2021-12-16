@@ -14,10 +14,12 @@ public class DogPuzzle : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (gameObject.name == "Handy_Trigger")
+        Debug.Log(other.name);
+
+        if (other.name == "LeftHandController" || other.name == "RightHandBaseController")
         {
-            Debug.Log("Handy Trigger");
-            handy.SetActive(true);
+            Debug.Log("´JUHUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU");
+            //handy.SetActive(true);
         }
     }
 
