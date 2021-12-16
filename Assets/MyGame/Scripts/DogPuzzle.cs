@@ -14,15 +14,26 @@ public class DogPuzzle : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name);
+        //Debug.Log(other.name);
 
         if (other.name == "LeftHandController" || other.name == "RightHandBaseController")
         {
-            Debug.Log("´JUHUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU");
-            //handy.SetActive(true);
+            Debug.Log("trigger handy");
+            handy.SetActive(true);
         }
     }
 
+
+    private void OnTriggerExit(Collider other)
+    {
+        //Debug.Log(other.name);
+
+        if (other.name == "LeftHandController" || other.name == "RightHandBaseController")
+        {
+            Debug.Log("trigger handy leave");
+            handy.SetActive(false);
+        }
+    }
     // Update is called once per frame
     void Update()
     {
