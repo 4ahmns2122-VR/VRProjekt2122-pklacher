@@ -9,6 +9,8 @@ public class TreePuzzle : MonoBehaviour
 
     private bool gotAxe = false;
 
+    private int triggerCount = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,8 +35,15 @@ public class TreePuzzle : MonoBehaviour
 
         if (other.name == "Tree" & gotAxe)
         {
-            tree.transform.Rotate(0, 0, -90);
-            tree.transform.position = new Vector3(transform.position.x, -1.29f, transform.position.z);
+            triggerCount = triggerCount + 1;
+            Debug.Log("Axe Hits: " + triggerCount);
+
+            if(triggerCount == 3)
+            {
+                tree.transform.Rotate(0, 0, -90);
+                tree.transform.position = new Vector3(transform.position.x, -1.29f, transform.position.z);
+            }
+            
         }
 
 
