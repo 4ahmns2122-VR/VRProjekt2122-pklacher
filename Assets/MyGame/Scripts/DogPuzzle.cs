@@ -5,6 +5,8 @@ using UnityEngine;
 public class DogPuzzle : MonoBehaviour
 {
     public GameObject handy;
+    public NumerInput numberScript;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +36,17 @@ public class DogPuzzle : MonoBehaviour
             handy.SetActive(false);
         }
     }
-    // Update is called once per frame
+
+    private void rightNumber(GameObject noHandy)
+    {
+        if(numberScript.telephoneNumberInput == numberScript.telephoneNumberRight)
+        {
+            //noHandy = handy.(DestroyObject);
+        }
+    }
+
+
+      // Update is called once per frame
     void Update()
     {
     
