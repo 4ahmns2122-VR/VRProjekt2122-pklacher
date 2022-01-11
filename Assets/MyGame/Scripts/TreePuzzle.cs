@@ -30,7 +30,7 @@ public class TreePuzzle : MonoBehaviour
         if (other.name == "Axe")
         {
             gotAxe = true;
-            axe.SetActive(false);
+            //axe.SetActive(false);
         }
 
         if (other.name == "Tree" & gotAxe)
