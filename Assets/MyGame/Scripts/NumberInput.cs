@@ -66,6 +66,7 @@ public class NumberInput : MonoBehaviour
     private void Congrats()
     {
         congratsText.text = "Du hast es geschafft!\nGehe weiter und löse auch die restlichen Puzzles!\n(1/3)";
+        Destroy(congratsText, 15f);
     }
 
     // Update is called once per frame

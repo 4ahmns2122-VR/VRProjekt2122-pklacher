@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ChristmastreePuzzle : MonoBehaviour
 {
     private int ornaments = 0;
 
+    public TMP_Text congratsText;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        congratsText.text = "";
     }
 
     // Update                   is called once per frame
@@ -30,9 +33,17 @@ public class ChristmastreePuzzle : MonoBehaviour
 
             if(ornaments >= 5)
             {
-                Debug.Log("Congrats");
+                Congrats();
             }
         }
 
     }
+
+    private void Congrats()
+    {
+        congratsText.text = "Du hast es geschafft!\nGehe nun zurück zum Haus deines Nachtbarn für deinen Haustürschlüssel!\n(3/3)";
+        Destroy(congratsText, 15f);
+        
+    }
+
 }
