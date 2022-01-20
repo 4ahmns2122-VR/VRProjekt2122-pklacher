@@ -8,11 +8,17 @@ public class NumberInput : MonoBehaviour
     public GameObject handy;
     public GameObject dog;
 
+    public AudioSource dogBarking;
+    public AudioSource glitterTreeSound;
+
+    public bool puzzle1Completed;
 
     public string telephoneNumberRight = "06";
     public string telephoneNumberInput;
 
     public TMP_Text congratsText;
+
+    public AudioSource numberBeep;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +29,11 @@ public class NumberInput : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.name == "Dog_Trigger")
+        {
+            dogBarking.Play();
+        }
+
         if (other.name == "Handy_Trigger")
         {
             Debug.Log("trigger handy");
@@ -31,6 +42,7 @@ public class NumberInput : MonoBehaviour
 
         if (other.tag == "number")
         {
+            numberBeep.Play();
             Debug.Log("input number");
             string numberIn = other.name;
             telephoneNumberInput = telephoneNumberInput + numberIn;
@@ -38,10 +50,10 @@ public class NumberInput : MonoBehaviour
 
             if (telephoneNumberInput == telephoneNumberRight)
             {
-                Debug.Log("Congrats");
                 Congrats();
                 dog.SetActive(false);
                 Destroy(handy);
+                glitterTreeSound.Play();
             }
         }
         if(other.tag == "delete")

@@ -9,6 +9,10 @@ public class ChristmastreePuzzle : MonoBehaviour
 
     public TMP_Text congratsText;
 
+    public bool puzzle3Completed;
+
+    public NumberInput numberInputSoundControl;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +38,7 @@ public class ChristmastreePuzzle : MonoBehaviour
             if(ornaments >= 5)
             {
                 Congrats();
+                Destroy(numberInputSoundControl); 
             }
         }
 

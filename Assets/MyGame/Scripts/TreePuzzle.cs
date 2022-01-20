@@ -12,6 +12,12 @@ public class TreePuzzle : MonoBehaviour
 
     public TMP_Text congratsText;
 
+    public AudioSource treeHit;
+    public AudioSource treeHitLeaf;
+    public AudioSource treeFall;
+
+    public bool puzzle2Completed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,9 +38,12 @@ public class TreePuzzle : MonoBehaviour
         {
             triggerCount = triggerCount + 1;
             Debug.Log("Axe Hits: " + triggerCount);
+            treeHit.Play();
+            treeHitLeaf.Play();
 
             if (triggerCount == 3)
             {
+                treeFall.Play();
                 axe.SetActive(false);
                 tree.transform.Rotate(0, 0, -90);
                 tree.transform.position = new Vector3(transform.position.x, -1.29f, transform.position.z);
