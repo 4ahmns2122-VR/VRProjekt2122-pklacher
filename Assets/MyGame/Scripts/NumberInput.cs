@@ -19,6 +19,7 @@ public class NumberInput : MonoBehaviour
     public TMP_Text congratsText;
 
     public AudioSource numberBeep;
+    public AudioSource deleteBeep;
 
     // Start is called before the first frame update
     void Start()
@@ -58,6 +59,7 @@ public class NumberInput : MonoBehaviour
         }
         if(other.tag == "delete")
         {
+            deleteBeep.Play();
             telephoneNumberInput = "";
             Debug.Log("delete");
         }
