@@ -10,7 +10,6 @@ public class TreePuzzle : MonoBehaviour
 
     private int triggerCount = 0;
 
-    public TMP_Text congratsText;
 
     public AudioSource treeHit;
     public AudioSource treeHitLeaf;
@@ -18,11 +17,7 @@ public class TreePuzzle : MonoBehaviour
 
     public bool puzzle2Completed;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        congratsText.text = "";
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -45,9 +40,8 @@ public class TreePuzzle : MonoBehaviour
             {
                 treeFall.Play();
                 axe.SetActive(false);
-                tree.transform.Rotate(0, 0, -90);
+                tree.transform.Rotate(0, 0, 90);
                 tree.transform.position = new Vector3(transform.position.x, -1.29f, transform.position.z);
-                Congrats();
             }
         }
 
@@ -55,9 +49,5 @@ public class TreePuzzle : MonoBehaviour
 
     }
 
-    private void Congrats()
-    {
-        congratsText.text = "Du hast es geschafft!\nGehe weiter und löse auch die restlichen Puzzles!\n(2/3)";
-        Destroy(congratsText, 15f);
-    }
+ 
 }

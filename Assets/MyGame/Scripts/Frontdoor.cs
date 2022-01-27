@@ -6,6 +6,7 @@ public class Frontdoor : MonoBehaviour
 {
     public GameObject frontDoor;
     public AudioSource music;
+    public AudioSource einleitung;
 
 
     private void OnTriggerEnter(Collider other)
@@ -14,6 +15,7 @@ public class Frontdoor : MonoBehaviour
         {
             Debug.Log("Trigger Enter");
             music.Play();
+            einleitung.Play();
             float x = frontDoor.transform.position.x - 2f;
             float y = frontDoor.transform.position.y;
             float z = frontDoor.transform.position.z;

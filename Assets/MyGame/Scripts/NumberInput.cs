@@ -10,22 +10,22 @@ public class NumberInput : MonoBehaviour
 
     public AudioSource dogBarking;
     public AudioSource glitterTreeSound;
+    public AudioSource riverSound;
 
     public bool puzzle1Completed;
 
     public string telephoneNumberRight = "06";
     public string telephoneNumberInput;
 
-    public TMP_Text congratsText;
-
     public AudioSource numberBeep;
     public AudioSource deleteBeep;
+    public AudioSource dogFound;
+    public AudioSource numberRight;
 
     // Start is called before the first frame update
     void Start()
     {
         handy.SetActive(false);
-        congratsText.text = "";
     }
 
     private void OnTriggerEnter(Collider other)
@@ -33,13 +33,10 @@ public class NumberInput : MonoBehaviour
         if (other.name == "Dog_Trigger")
         {
             dogBarking.Play();
+            handy.SetActive(true);
+            dogFound.Play();
         }
 
-        if (other.name == "Handy_Trigger")
-        {
-            Debug.Log("trigger handy");
-            handy.SetActive(true);
-        }
 
         if (other.tag == "number")
         {
@@ -51,10 +48,12 @@ public class NumberInput : MonoBehaviour
 
             if (telephoneNumberInput == telephoneNumberRight)
             {
-                Congrats();
+               
                 dog.SetActive(false);
                 Destroy(handy);
+                numberRight.Play(); 
                 glitterTreeSound.Play();
+                riverSound.Play();
             }
         }
         if(other.tag == "delete")
@@ -77,11 +76,7 @@ public class NumberInput : MonoBehaviour
         }
     }
 
-    private void Congrats()
-    {
-        congratsText.text = "Du hast es geschafft!\nGehe weiter und löse auch die restlichen Puzzles!\n(1/3)";
-        Destroy(congratsText, 15f);
-    }
+
 
     // Update is called once per frame
     void Update()

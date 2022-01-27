@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 
 public class KeyBackdoor : MonoBehaviour
@@ -13,9 +14,12 @@ public class KeyBackdoor : MonoBehaviour
     public TreePuzzle puzzle2;
     public ChristmastreePuzzle puzzle3;
 
+    public TMP_Text congratsText;
+
     // Start is called before the first frame update
     void Start()
     {
+        congratsText.text = "";
         key.SetActive(false);
     }
 
@@ -32,7 +36,14 @@ public class KeyBackdoor : MonoBehaviour
     {
         if (other.name == "Key")
         {
+            Congrats();
             Destroy(door);
         }
+    }
+
+    private void Congrats()
+    {
+        congratsText.text = "Du hast es geschafft!\nGratulation!";
+
     }
 }
