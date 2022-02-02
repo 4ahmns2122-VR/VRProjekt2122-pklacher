@@ -11,6 +11,24 @@ After following the sparkle noise you find a christmastree. You decide to take s
 #### Bonus Game:
 Before getting to the christmastree there is a pine and a river you can't pass. With an axe you found at your neighbors you can chop the tree and get over the river to the christmastree
 
+
+#### Sounds:
+•	dog barking
+•	"sparkling sound" for christmastree  
+•	river flowing  
+•	christmasmusic looped (a little stressed)  
+•	input number in phone  
+•	falling tree 
+•	exe hits tree with leaves rustleing  
+
+#### Nice-to-have:
+
+##### Sounds:
+•	"thoughts" for better understanding of the story  
+•	backround noise "wind"  
+##### Visuals:
+•	particle effect "snow"
+
 ## Development platform: 
 OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit
 
