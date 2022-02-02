@@ -13,12 +13,12 @@ Before getting to the christmastree there is a pine and a river you can't pass. 
 
 
 #### Sounds:
-•	dog barking
+•	dog barking  
 •	"sparkling sound" for christmastree  
 •	river flowing  
 •	christmasmusic looped (a little stressed)  
 •	input number in phone  
-•	falling tree 
+•	falling tree  
 •	exe hits tree with leaves rustleing  
 
 #### Nice-to-have:
@@ -42,7 +42,8 @@ When downlaoded, you have compile time errors in the project. To solve them inst
 Oculus Rift/S; 
 
 ## Visuals: 
-Screenshots (concept and experience), Video
+
+Video
 
 ## Third party material: 
 #### Testing withour headset:
