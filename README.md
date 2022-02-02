@@ -48,15 +48,24 @@ Oculus Rift/S;
 Video
 
 ## Third party material: 
-#### Testing withour headset:
-For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
 #### Sounds:
 https://freesound.org/
 #### Assets & Textures:
 https://assetstore.unity.com/  
 https://www.cgtrader.com/  
 https://www.turbosquid.com/  
-
-### Limitations/Problems: 
+#### Packages:
+JetBrains Rider Editor - Version 2.0.7 - August 19, 2020  
+Post Processing - Version 3.1.1 - May 26, 2021  
+Test Framework - Version 1.1.29 - August 17, 2021  
+TextMeshPro - Version 3.0.6 - April 22, 2021  
+Timeline - Version 1.4.8 - May 04, 2021  
+Unity UI - Version 1.0.0 - August 31, 2021  
+Version Control - Version 1.9.0 - August 05, 2021  
+Visual Studio Code Editor - Version 1.2.3 - October 28, 2020  
+Visual Studio Editor - Version 2.0.11 - July 08, 2021  
+XR Plugin Management - Version 4.0.7 - July 12, 2021  
+##### For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
+XR Interaction Toolkit - Version 1.0.0-pre.8 - October 27, 2021  
 
 Copyright by pklacher
