@@ -6,7 +6,7 @@ You are leaving your house. Just as you lock the door, you remember, you forgot 
 ## MVP
 ### Games:
 #### Game 1:
-You hear a dog bark and find it. A phone appears and you dial your neighbors number so he can come and pick up his dog. Then the phone disappears again and you move on to your next quest.
+You hear a dog bark and find it. A phone appears and you dial your neighbors number, which you found on the sheet on his door, so he can come and pick up his dog. Then the phone disappears again and you move on to your next quest.
 #### Game 2:
 After following the sparkle noise you find a christmastree. You decide to take some of the decoration, so the neighbor can give you your key.
 #### Bonus Game:
