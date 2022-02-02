@@ -3,7 +3,6 @@ using UnityEngine;
 public class Frontdoor : MonoBehaviour
 {
     public GameObject frontDoor;
-    public AudioSource music;
     public AudioSource einleitung;
 
 
@@ -11,7 +10,6 @@ public class Frontdoor : MonoBehaviour
     {
         if (other.name == "LeftHandController" || other.name == "RightHandaseController") 
         {
-            music.Play();
             einleitung.Play();
             float x = frontDoor.transform.position.x - 2f;
             float y = frontDoor.transform.position.y;

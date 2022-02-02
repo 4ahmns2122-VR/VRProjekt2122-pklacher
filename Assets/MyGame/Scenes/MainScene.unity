@@ -1296,7 +1296,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -7579,7 +7579,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -7748,7 +7748,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frontDoor: {fileID: 1274427758}
-  music: {fileID: 1808480234}
   einleitung: {fileID: 64047410}
 --- !u!65 &1020781773
 BoxCollider:
@@ -8151,7 +8150,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -8553,7 +8552,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -8680,7 +8679,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -10345,7 +10344,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -18757,7 +18756,7 @@ GameObject:
   - component: {fileID: 1808480233}
   - component: {fileID: 1808480234}
   m_Layer: 0
-  m_Name: christmas-12025
+  m_Name: christmas_music_atmo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18787,8 +18786,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b34cde5d9cdf67448bd48d584f6d68f6, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 98e82754f6bddaa4198b389b9393fc55, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
@@ -19326,7 +19325,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -20789,7 +20788,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c12c709928b597342ac9d9d882a17972, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.232
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -20885,7 +20884,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 24a91496fe851c5459216bd6000cbb6d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.283
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -20981,7 +20980,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0c09ba5babab74548bd8a24b714d9708, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.094
+  m_Volume: 0.12
   m_Pitch: 1
   Loop: 0
   Mute: 0
