@@ -4,6 +4,7 @@
 You are leaving your house. Just as you lock the door, you remember, you forgot your keys inside. Lucky for you, your neighbar has the key for your backdoor, too. When you arrive at his house, you find a note on his door, saying that he isn't home and won't return until he finds his dog and has found some christmas decoration. You decide to help him. 
 
 ## MVP
+### Games:
 #### Game 1:
 You hear a dog bark and find it. A phone appears and you dial your neighbors number so he can come and pick up his dog. Then the phone disappears again and you move on to your next quest.
 #### Game 2:
@@ -11,8 +12,16 @@ After following the sparkle noise you find a christmastree. You decide to take s
 #### Bonus Game:
 Before getting to the christmastree there is a pine and a river you can't pass. With an axe you found at your neighbors you can chop the tree and get over the river to the christmastree
 
+### Milestones:
+- Milestone 1: 25.11.2021 - working in VR, in-game movement works  
+• was completed  
+-  Milestone 2: 13.01.2022 - all games finished, first sounds implemented  
+• was almost completed (games worked, but things like key & backdoor were missing)  
+- Milestone 3: 20.01.2022 - gameplay finished, visuals finished, sounds finshed  
+• not finished in time (visuals and sounds not finished)  
 
-#### Sounds:
+
+### Sounds:
 •	dog barking  
 •	"sparkling sound" for christmastree  
 •	river flowing  
@@ -21,7 +30,7 @@ Before getting to the christmastree there is a pine and a river you can't pass. 
 •	falling tree  
 •	exe hits tree with leaves rustleing  
 
-#### Nice-to-have:
+## Nice-to-have:
 
 ##### Sounds:
 •	"thoughts" for better understanding of the story  
