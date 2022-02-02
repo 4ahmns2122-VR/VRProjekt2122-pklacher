@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class ChristmastreePuzzle : MonoBehaviour
 {
@@ -12,26 +9,17 @@ public class ChristmastreePuzzle : MonoBehaviour
     public NumberInput numberInputSoundControl;
 
  
-
-    // Update                   is called once per frame
-    void Update()
-    {
-
-    }
-
-
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "ornament")
         {
             ornaments = ornaments + 1;
             other.gameObject.SetActive(false);
-            Debug.Log("Ornaments " + ornaments); 
 
             if(ornaments >= 5)
             {
-                Destroy(numberInputSoundControl); 
+                puzzle3Completed = true;
+                numberInputSoundControl.glitterTreeSound.Stop(); 
             }
         }
 

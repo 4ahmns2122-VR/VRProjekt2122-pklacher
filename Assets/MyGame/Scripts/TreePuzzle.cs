@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class TreePuzzle : MonoBehaviour
 {
@@ -18,21 +15,11 @@ public class TreePuzzle : MonoBehaviour
     public bool puzzle2Completed;
 
 
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.name == "Axe")
         {
             triggerCount = triggerCount + 1;
-            Debug.Log("Axe Hits: " + triggerCount);
             treeHit.Play();
             treeHitLeaf.Play();
 
