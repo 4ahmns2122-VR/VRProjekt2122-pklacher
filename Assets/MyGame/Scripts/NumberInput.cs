@@ -58,6 +58,7 @@ public class NumberInput : MonoBehaviour
                 numberRight.Play(); 
                 glitterTreeSound.Play();
                 riverSound.Play();
+                puzzle1Completed = true;
             }
         }
         if(other.tag == "delete")

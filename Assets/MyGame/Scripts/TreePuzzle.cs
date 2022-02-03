@@ -29,6 +29,7 @@ public class TreePuzzle : MonoBehaviour
                 axe.SetActive(false);
                 tree.transform.Rotate(0, 0, 90);
                 tree.transform.position = new Vector3(transform.position.x, -1.29f, transform.position.z);
+                puzzle2Completed = true;
             }
         }
 

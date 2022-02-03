@@ -29,4 +29,27 @@ public class SpeachTrigger : MonoBehaviour
             foundKey.Play();
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.name == "NoteTrigger")
+        {
+            Destroy(doorNote);
+        }
+
+        if (other.name == "TreeSpeachTrigger")
+        {
+            Destroy(tree);
+        }
+
+        if (other.name == "ChristmastreeSpeachTrigger")
+        {
+            Destroy(foundChristbaum);
+        }
+
+        if (other.name == "Key")
+        {
+            Destroy(foundKey);
+        }
+    }
 }
