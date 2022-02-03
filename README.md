@@ -77,4 +77,7 @@ XR Plugin Management - Version 4.0.7 - July 12, 2021
 ##### For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
 XR Interaction Toolkit - Version 1.0.0-pre.8 - October 27, 2021  
 
+## Limitations
+Please stay in the trigger as long as the speach goes on. If you leave it too early, you can't start it again. I just think thats a better solution than hearing it over and over again each time you accidentally activate the trigger.
+
 Copyright by pklacher
