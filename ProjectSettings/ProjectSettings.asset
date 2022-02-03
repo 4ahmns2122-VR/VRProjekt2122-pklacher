@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: QuestXRInteractToolkit
+  productName: ColdOutside_PiaLacher
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -144,6 +144,8 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 11400000, guid: 8c65bd3f39bdc1245b7e377db1364d0a, type: 2}
+  - {fileID: 0}
+  - {fileID: 7355123580747831285, guid: da5397c92a6210e4f8ae3ed5b9375c85, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -162,7 +164,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.QuestXRInteractToolkit
-    Standalone: com.DefaultCompany.QuestXRInteractToolkit
+    Standalone: com.DefaultCompany.ColdOutsidePiaLacher
   buildNumber:
     Standalone: 0
     iPhone: 0
