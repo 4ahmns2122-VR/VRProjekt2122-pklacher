@@ -76,6 +76,11 @@ public class NumberInput : MonoBehaviour
         {
             handy.SetActive(false);
         }
+
+        if (other.name == "Handy_Trigger")
+        {
+            Destroy(dogFound);
+        }
     }
 
 }

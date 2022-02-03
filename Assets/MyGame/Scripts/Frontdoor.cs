@@ -18,4 +18,12 @@ public class Frontdoor : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.name == "LeftHandController" || other.name == "RightHandaseController")
+        {
+            Destroy(einleitung);
+        }
+    }
+
 }
