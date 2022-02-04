@@ -54,7 +54,6 @@ Oculus Rift/S;
 ![Screenshot1](https://github.com/4ahmns2122-VR/VRProjekt2122-pklacher/blob/main/Assets/Screenshots/screenshot1.JPG)
 ![Screenshot2](https://github.com/4ahmns2122-VR/VRProjekt2122-pklacher/blob/main/Assets/Screenshots/screenshot2.JPG)
 ![Screenshot3](https://github.com/4ahmns2122-VR/VRProjekt2122-pklacher/blob/main/Assets/Screenshots/screenshot3.JPG)
-Video
 
 ## Third party material: 
 #### Sounds:
